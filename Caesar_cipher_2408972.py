@@ -134,5 +134,5 @@ def main():
             write_messages(processed_messages)
             print("Processed messages written to results.txt")
 if __name__ == '__main__': 
-    main();
+    main()
 
