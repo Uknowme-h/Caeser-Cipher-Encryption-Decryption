@@ -1,4 +1,4 @@
-/**
+/** 
  * This program is designed to perform encryption and decryption operations using a shift cipher.
  * 
  * The program starts by calling the main() function. If the user chooses to quit, the program ends.

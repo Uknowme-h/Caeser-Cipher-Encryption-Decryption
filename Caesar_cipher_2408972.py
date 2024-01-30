@@ -119,9 +119,6 @@ def main():
         if mode is None:
             print("Thankyou for using this program, Goodbye!")
             break  
-
-
-
         if _ != True:  
             global shift
             shift = int(input("Enter shift: - "))
@@ -133,6 +130,7 @@ def main():
             processed_messages = process_file(filename, mode)
             write_messages(processed_messages)
             print("Processed messages written to results.txt")
+
 if __name__ == '__main__': 
     main()
 
